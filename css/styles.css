@@ -87,6 +87,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .navigation-list {
 display: flex;
 gap: 40px;
+}
+
+.navigation-link {
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;
 
 color: var(--primary-title-color);
 
@@ -94,12 +100,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-.navigation-link {
-display: block;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 
 .navigation-link:hover, .auth-contact:hover,
@@ -240,7 +240,7 @@ padding-bottom: 120px;
 }
 
 .team-photo {
- }
+}
 .team-name  {
     margin-top: 32px;
     text-align: center;
@@ -291,18 +291,17 @@ cursor: pointer;
 }
 
 .portfolio-list {
-   flex-wrap: wrap; 
-   row-gap: 42px;
-   padding-bottom: 120px;
+flex-wrap: wrap; 
+row-gap: 42px;
+padding-bottom: 120px;
 }
 
-.portfolio-title {
-    margin-top: 32px;
-  }
+.portfolio-wrap {
+margin: 32px 16px;
+}
 
 .portfolio-action {
     margin-top: 8px;
-    padding-bottom: 32px;
 }
 
 .portfolio-item {
@@ -326,7 +325,7 @@ cursor: pointer;
     line-height: 1.16;
     color: #F4F4FD;
     }
-    
+
     .footer-text {
     color: #E7E9FC;
     margin-top: 16px;
